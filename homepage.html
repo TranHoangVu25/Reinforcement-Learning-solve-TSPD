@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Project</title>
+    <link rel="stylesheet" href="static/homepage.css">
+        
+</head>
+<body>
+   
+            <button id="go">Go</button>
+           
+
+    <div class="chatbot-icon" onclick="toggleChatbot()">💬</div>
+
+    <div class="chatbot hidden">
+        <div class="chatbot-header">
+            Chatbot
+            <span class="close-btn" onclick="toggleChatbot()">-</span>
+        </div>
+        <div class="chatbot-body">
+            <div id="chatbot_messages" class="chatbot-messages">
+                <!-- Tin nhắn mẫu -->
+                <div class="bot-message">Hello! How can I assist you?</div>
+                <div class="user-message">Hi! Can you give some iformation about Q-learning and SARSA?</div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="user_input" placeholder="Type your message..." />
+                <button id="send_btn">Send</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+    <script src="static/homepage.js">
+       
+    </script>
+</body>
+</html>
