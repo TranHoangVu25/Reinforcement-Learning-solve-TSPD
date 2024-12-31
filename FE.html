@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Q-learning and SARSA</title>
+    <!-- <link rel="stylesheet" href="FE.css"> -->
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="static/FE.css">
+
+</head>
+<body>
+    <div id="header">
+        <h1>Compare SARSA algorithm and Q-learning algorithm</h1>
+    </div>
+
+    <button id="run_q">Run</button>
+    <p id="statusMessage"></p>    <div id="nav">
+        <div id="Q_learning">
+            <h2>Q-learning</h2>
+            <button id="btn_q">Display result</button>
+            <div class="result-container">
+                <p>Truck's route: <span id="Truck_route_q">result here</span></p>
+                <p>Drone's route: <span id="Drone_route_q">result here</span></p>
+                <p>Emission generated: <span id="emissions_q">result here</span></p>
+            </div>
+            <button id="load-image-btn">Load Image</button>
+            <div id="image_container_truck_q"></div>
+            <div id="image_container_drone_q"></div>
+        </div>
+
+        <div id="SARSA">
+            <h2>SARSA</h2>
+            <button id="btn_sarsa">Display result</button>
+            <div class="result-container">
+                <p>Truck's route: <span id="Truck_route_sarsa">result here</span></p>
+                <p>Drone's route: <span id="Drone_route_sarsa">result here</span></p>
+                <p>Emission generated: <span id="emissions_sarsa">result here</span></p>
+            </div>
+            <button id="load-image-btn1">Load Image</button>
+            <div id="image_container_truck_sarsa"></div>
+            <div id="image_container_drone_sarsa"></div>
+        </div>
+    </div>
+</body>
+
+<script src="static/FE.js">
+   
+</script>
+</html>
